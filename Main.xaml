@@ -1,0 +1,80 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" sap2010:ExpressionActivityEditor.ExpressionActivityEditor="C#" sap:VirtualizedContainerService.HintSize="654,519" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib" xmlns:ufa="clr-namespace:UiPath.Form.Activities;assembly=UiPath.Form.Activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Text</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>System.Activities.DynamicUpdate</x:String>
+      <x:String>UiPath.Form.Activities</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.CSharp</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Form.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence sap:VirtualizedContainerService.HintSize="246,233" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <ufa:FormActivity Dismissed="{x:Null}" FormFieldsInputData="{x:Null}" FormFieldsOutputData="{x:Null}" FormTitle="{x:Null}" SelectedButton="{x:Null}" TimeoutInSeconds="{x:Null}" WindowPositionLeft="{x:Null}" WindowPositionTop="{x:Null}" DisableMaximizeButton="False" DisableMinimizeButton="False" DisplayName="Create Form" FormHeight="399" FormSchema="%[{&quot;tag&quot;:&quot;h2&quot;,&quot;refreshOnChange&quot;:true,&quot;content&quot;:&quot;Oodles Tech Company&quot;,&quot;key&quot;:&quot;lbloodles&quot;,&quot;input&quot;:false,&quot;tableView&quot;:false,&quot;label&quot;:&quot;Label&quot;,&quot;type&quot;:&quot;label&quot;,&quot;calculateServer&quot;:false},{&quot;label&quot;:&quot;First Name&quot;,&quot;showWordCount&quot;:true,&quot;showCharCount&quot;:true,&quot;spellcheck&quot;:true,&quot;tableView&quot;:false,&quot;validate&quot;:{&quot;required&quot;:true,&quot;customMessage&quot;:&quot;Please enter the First Name&quot;,&quot;minLength&quot;:1,&quot;maxLength&quot;:20},&quot;errorLabel&quot;:&quot;Please enter the First Name&quot;,&quot;key&quot;:&quot;FirstName&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true,&quot;calculateServer&quot;:false},{&quot;label&quot;:&quot;Last Name&quot;,&quot;showWordCount&quot;:true,&quot;showCharCount&quot;:true,&quot;spellcheck&quot;:true,&quot;tableView&quot;:false,&quot;validate&quot;:{&quot;required&quot;:true,&quot;customMessage&quot;:&quot;Please enter your Last Name&quot;,&quot;minLength&quot;:1,&quot;maxLength&quot;:20},&quot;errorLabel&quot;:&quot;Please enter your Last Name&quot;,&quot;key&quot;:&quot;lastName&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true,&quot;calculateServer&quot;:false},{&quot;label&quot;:&quot;Internship Month&quot;,&quot;optionsLabelPosition&quot;:&quot;right&quot;,&quot;inline&quot;:false,&quot;tableView&quot;:false,&quot;values&quot;:[{&quot;label&quot;:&quot;January&quot;,&quot;value&quot;:&quot;january&quot;,&quot;shortcut&quot;:&quot;&quot;},{&quot;label&quot;:&quot;February&quot;,&quot;value&quot;:&quot;february&quot;,&quot;shortcut&quot;:&quot;&quot;},{&quot;label&quot;:&quot;March&quot;,&quot;value&quot;:&quot;march&quot;,&quot;shortcut&quot;:&quot;&quot;},{&quot;label&quot;:&quot;April&quot;,&quot;value&quot;:&quot;april&quot;,&quot;shortcut&quot;:&quot;&quot;},{&quot;label&quot;:&quot;May&quot;,&quot;value&quot;:&quot;may&quot;,&quot;shortcut&quot;:&quot;&quot;},{&quot;label&quot;:&quot;June&quot;,&quot;value&quot;:&quot;june&quot;,&quot;shortcut&quot;:&quot;&quot;},{&quot;label&quot;:&quot;July&quot;,&quot;value&quot;:&quot;july&quot;,&quot;shortcut&quot;:&quot;&quot;},{&quot;label&quot;:&quot;August&quot;,&quot;value&quot;:&quot;august&quot;,&quot;shortcut&quot;:&quot;&quot;},{&quot;label&quot;:&quot;September&quot;,&quot;value&quot;:&quot;september&quot;,&quot;shortcut&quot;:&quot;&quot;},{&quot;label&quot;:&quot;October&quot;,&quot;value&quot;:&quot;october&quot;,&quot;shortcut&quot;:&quot;&quot;},{&quot;label&quot;:&quot;November&quot;,&quot;value&quot;:&quot;november&quot;,&quot;shortcut&quot;:&quot;&quot;},{&quot;label&quot;:&quot;December&quot;,&quot;value&quot;:&quot;december&quot;,&quot;shortcut&quot;:&quot;&quot;}],&quot;validate&quot;:{&quot;required&quot;:true,&quot;customMessage&quot;:&quot;Please select the month&quot;},&quot;errorLabel&quot;:&quot;err_month&quot;,&quot;key&quot;:&quot;internshipMonth&quot;,&quot;conditional&quot;:{&quot;when&quot;:&quot;submit&quot;},&quot;type&quot;:&quot;radio&quot;,&quot;input&quot;:true,&quot;calculateServer&quot;:false},{&quot;label&quot;:&quot;Education&quot;,&quot;spellcheck&quot;:false,&quot;tableView&quot;:false,&quot;validate&quot;:{&quot;required&quot;:true,&quot;customMessage&quot;:&quot;Please enter the your education details&quot;,&quot;minLength&quot;:1,&quot;maxLength&quot;:30},&quot;errorLabel&quot;:&quot;err_education&quot;,&quot;key&quot;:&quot;education&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true,&quot;calculateServer&quot;:false},{&quot;label&quot;:&quot;Gender&quot;,&quot;widget&quot;:&quot;choicesjs&quot;,&quot;placeholder&quot;:&quot;choose&quot;,&quot;tableView&quot;:false,&quot;data&quot;:{&quot;values&quot;:[{&quot;value&quot;:&quot;preferNotToSay&quot;,&quot;label&quot;:&quot;Prefer not to say&quot;},{&quot;label&quot;:&quot;Male&quot;,&quot;value&quot;:&quot;male&quot;},{&quot;label&quot;:&quot;Female&quot;,&quot;value&quot;:&quot;female&quot;}]},&quot;validate&quot;:{&quot;required&quot;:true,&quot;customMessage&quot;:&quot;Please select the gender&quot;},&quot;errorLabel&quot;:&quot;err_Gender&quot;,&quot;key&quot;:&quot;gender&quot;,&quot;type&quot;:&quot;select&quot;,&quot;indexeddb&quot;:{&quot;filter&quot;:{}},&quot;input&quot;:true,&quot;calculateServer&quot;:false,&quot;uniqueOptions&quot;:false},{&quot;label&quot;:&quot;University&quot;,&quot;showWordCount&quot;:true,&quot;showCharCount&quot;:true,&quot;spellcheck&quot;:true,&quot;tableView&quot;:false,&quot;validate&quot;:{&quot;required&quot;:true,&quot;customMessage&quot;:&quot;Please enter your University&quot;,&quot;minLength&quot;:1,&quot;maxLength&quot;:50},&quot;errorLabel&quot;:&quot;err_university&quot;,&quot;key&quot;:&quot;university&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true,&quot;calculateServer&quot;:false},{&quot;label&quot;:&quot;Email&quot;,&quot;tableView&quot;:true,&quot;key&quot;:&quot;email&quot;,&quot;type&quot;:&quot;email&quot;,&quot;input&quot;:true,&quot;calculateServer&quot;:false,&quot;spellcheck&quot;:true},{&quot;label&quot;:&quot;Phone Number&quot;,&quot;showWordCount&quot;:true,&quot;showCharCount&quot;:true,&quot;spellcheck&quot;:true,&quot;tableView&quot;:false,&quot;key&quot;:&quot;phoneNumber&quot;,&quot;type&quot;:&quot;textfield&quot;,&quot;input&quot;:true,&quot;calculateServer&quot;:false},{&quot;label&quot;:&quot;Submit&quot;,&quot;action&quot;:&quot;custom&quot;,&quot;tableView&quot;:false,&quot;key&quot;:&quot;submit&quot;,&quot;custom&quot;:&quot;instance.emit('executeDoBlock', instance.component);&quot;,&quot;type&quot;:&quot;button&quot;,&quot;input&quot;:true,&quot;calculateServer&quot;:false}]" FormTheme="{}{&quot;Activities&quot;:[&quot;FORMS&quot;],&quot;Id&quot;:&quot;1598379976683&quot;,&quot;Name&quot;:&quot;OodlesForm&quot;,&quot;BaseCss&quot;:&quot;../../assets/css/themes/sandstone.bootstrap.min.css&quot;,&quot;ImageSrc&quot;:&quot;../../assets/themeicons/sandstone.png&quot;,&quot;OverrideCssUrl&quot;:&quot;&quot;,&quot;UserStyleOverrides&quot;:&quot;body , h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {\n                      font-family : Arial !important;\n                    }table, .btn, .form-control {\n                      font-size : 16px !important;\n                     }h1 {\n                      font-size : 38px !important;\n                    }h2 {\n                      font-size : 32px !important;\n                    }h3 {\n                      font-size : 26px !important;\n                    }h4 {\n                      font-size : 20px !important;\n                    }h5 {\n                      font-size : 16px !important;\n                    }h6 {\n                      font-size : 14px !important;\n                    }body {\n      background:  #f5e5e5 !important;\n      font-size : 16px !important;\n      font-family : Arial !important;\n      color : #191919 !important\n    } .panel-default {\n                        background:   !important;\n                        border-color :   !important;\n                      }\n                 .panel-default &gt; .panel-heading {\n                        background-color:  !important;\n                        color : #191919 !important\n                      }.btn-primary {\n                          background:  #325d88 !important;\n                          border-color:  #ffffff !important;\n                          color:  #ffffff !important;\n                      } .btn-primary:hover {\n                          background:  #325d88 !important;\n                          color:  #ffffff !important;\n                      } .btn-default {\n                        background:   !important;\n                        border-color:   !important;\n                        color:   !important;\n                      } .btn-default:hover {\n                        background:   !important;\n                        color:   !important;\n                      } &quot;,&quot;Properties&quot;:&quot;&quot;,&quot;IsCustomTheme&quot;:true,&quot;Version&quot;:1,&quot;ThemeVersion&quot;:1}" FormWidth="800" GenerateInputFields="True" sap:VirtualizedContainerService.HintSize="204,141" sap2010:WorkflowViewState.IdRef="FormActivity_2" IsReadOnly="False" MaxColumnsForSchemaGeneration="6" RunDoBlockFirst="False" RunInIsolatedMode="False">
+      <ufa:FormActivity.Body>
+        <ActivityAction x:TypeArguments="scg:Dictionary(x:String, x:Object)" />
+      </ufa:FormActivity.Body>
+      <ufa:FormActivity.DelayBody>
+        <ActivityAction x:TypeArguments="scg:Dictionary(x:String, x:Object)">
+          <Delay Duration="00:00:00.2500000" sap2010:WorkflowViewState.IdRef="Delay_2" />
+        </ActivityAction>
+      </ufa:FormActivity.DelayBody>
+      <ufa:FormActivity.FormFieldsCollection>
+        <scg:Dictionary x:TypeArguments="x:String, Argument" />
+      </ufa:FormActivity.FormFieldsCollection>
+    </ufa:FormActivity>
+  </Sequence>
+</Activity>
